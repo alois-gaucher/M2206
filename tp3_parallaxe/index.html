@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TP Parallaxe</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-parallax-min.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+	<script type="text/javascript" src="js/jquery.localScroll.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready( function(){ 
+							$.localScroll();  	
+							$('#z1').parallax("50%", 0.7);	
+							$('#z2').parallax("50%", 0.7);	
+							$('#z3').parallax("50%", 0.7);	
+							$('#z4').parallax("50%", 0.7);	
+							});
+
+	</script>
+</head>
+<body>
+<div id="menu">
+	<nav>
+		<ul>
+		<li><a href="#z4">Accueil</a> </li>
+		<li><a href="#z3">Galerie</a> </li>
+		<li><a href="#z2">Compétences</a> </li>
+		<li><a href="#z1">Contact</a> </li>
+	</ul>
+	</nav>
+</div>
+<div id="z1">
+	<div id="sc1">
+		<h1>Accueil</h1> 
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+	 </div>
+  </div>
+
+<div id="z2">
+	<div id="sc2">
+		<h1>Galerie</h1> 
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+	 </div>
+  </div>
+<div id="z3">
+	<div id="sc3">
+		<h1>Compétences</h1> 
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+	 </div>
+  </div>
+<div id="z4">
+	<div id="sc4">
+		<h1>Contact</h1> 
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+	 </div>
+  </div>
+</body>
+</html>

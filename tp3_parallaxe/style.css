@@ -1,0 +1,119 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body {
+	font-family: sans-serif;
+	
+}
+
+#menu{
+	background: #000;
+	position: fixed;
+	z-index: 100;
+	top:0px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+}
+
+#menu li {
+	float: right;
+	margin-left:20px;
+	margin-right: 10px;
+}
+
+
+#menu a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	color: #F55;
+	text-decoration: none;
+}
+
+#menu ul{
+margin-top: 15px;
+}
+
+#z1{
+	position: relative;
+	width: 100%;
+	height: 800px;
+	background: url("images/above-adventure-aerial-air.jpg") center no-repeat fixed red;
+	
+}
+
+
+#z2{
+	position: relative;
+	width: 100%;
+	height: 800px;
+	background: url("images/SanFrancisco.jpg") center no-repeat fixed red ;
+	
+}
+
+
+#z3{
+	position: relative;
+	width: 100%;
+	height: 800px;
+	background: url("images/umbrellas.jpg") center no-repeat fixed  red;
+	
+}
+
+#z4{
+	position: relative;
+	width: 100%;
+	height: 800px;
+	background: url("images/flowers-background-butterflies-beautiful-87452.jpeg") center no-repeat fixed red;
+}
+
+
+#sc1 {
+	color: #FFF;
+	padding: 70px;
+	position: absolute;
+	top:100px;
+	right:50px;
+	background: #CCC;
+	width: 300px;
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+}
+
+#sc2 {
+	padding: 70px;
+	position: absolute;
+	top:100px;
+	left:50px;
+	background: #CCC;
+	opacity: 0.5;
+	width: 300px;
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+}
+
+#sc3 {
+	padding: 70px;
+	position: absolute;
+	top:100px;
+	right:50px;
+	background: #CCC;
+	opacity: 0.5;
+	width: 300px;
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+}
+
+#sc4 {
+	padding: 70px;
+	position: absolute;
+	top:100px;
+	left:50px;
+	background: #CCC;
+	opacity: 0.5;
+	width: 300px;
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+}
