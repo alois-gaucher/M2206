@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jquery</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<section>
+		<h1>Travaillons avec Jquery</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus eros eros, quis feugiat felis aliquet id. Mauris aliquet ut risus eget cursus. Proin iaculis dolor felis, scelerisque tempor mi fringilla vitae. Curabitur venenatis ut mauris eget suscipit. Aliquam eu cursus ipsum, ac mattis leo. Vivamus sit amet ante ultricies, pulvinar justo consectetur, aliquet mauris. Pellentesque aliquet diam id dui iaculis ultrices. Nulla commodo tincidunt metus eget molestie. Maecenas quis arcu at mi semper porta. Sed quam ante, interdum at diam id, scelerisque iaculis est. Curabitur ac purus ex. Mauris sed vestibulum velit. Nullam convallis rutrum eleifend. Duis egestas nisi in malesuada consectetur.</p>
+
+		<p>Etiam eget urna non eros viverra viverra. Vestibulum dictum tellus id urna aliquam bibendum. Donec at molestie mauris, non vestibulum justo. Nulla pulvinar orci at imperdiet viverra. Sed sed massa semper, vulputate ipsum et, venenatis sapien. Aliquam sagittis mauris a lorem egestas, non consectetur diam dapibus. Morbi tempor ultricies orci, eleifend vestibulum lacus lacinia eget. Ut id euismod neque, non elementum justo. Proin tincidunt metus dolor, nec laoreet lacus pulvinar eget.</p>
+		<p><a href="#" id="contact">Contactez-nous</a></p>
+	</section>
+
+	<div id="background">
+		<div id="overlay">
+			<form>
+				<a href="#" id="fermer">X</a>
+				<label for="">Nom</label>
+				<input type="text"><br>
+				<label for="">Prenom</label>
+				<input type="text"><br>
+				<label for="">Email</label>
+				<input type="text"><br>
+				<label for="">Message</label>
+				<textarea placeholder="Votre message"></textarea>
+				<p><button id="envoyer" type="submit">Envoyer</button></p>
+			</form>
+		</div><!-- /overlay -->
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script>
+	// Une fois la page chargée, on gère les événements
+	$( document ).ready(function() {
+		$("#fermer").click(function(){
+		  $("#background").fadeOut(500);
+		});
+
+		$("#contact").click(function(){
+		  $("#background").fadeIn(500);
+		});
+
+		$("#envoyer").click(function myFunction() {
+  			alert("Message envoyé");
+		});
+	});
+	</script>
+</body>
+</html>

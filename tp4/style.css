@@ -1,0 +1,48 @@
+html {
+    font-family: sans-serif;
+    color: #2c3e50;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #34495e;
+}
+
+section {
+    box-shadow: 0px 0px 8px rgba(220, 220, 220, 0.7);
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin: 100px;
+}
+
+#background {
+    background-color: rgba(50, 50, 50, .5);
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    display: none;
+}
+
+#overlay {
+    background: white;
+    border-radius: 2px;
+    width: 20rem;
+    height: auto;
+    padding: 2rem;
+    margin: auto;
+    z-index: 999;
+    position: relative;
+}
+
+#envoyer {
+    position: absolute;
+}
+
+#fermer {
+    border-radius: 10px;
+}
